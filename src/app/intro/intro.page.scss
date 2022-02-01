@@ -1,0 +1,49 @@
+ion-content {
+  --background: var(--miboredered); /** VARIABLE CREADA **/
+  font-family: 'Arial', Times, serif;
+  padding: 2px;
+  } 
+
+  .searchbar {
+    color: blue;
+  }
+  
+  ion-slides {
+    height: 100%;
+    max-width: 800px;
+    background-color: var(--mibackground-color);/** VARIABLE CREADA **/
+    margin:10px;
+  }
+  .swiper-slide {
+    display: block;
+    margin-bottom: 60px;
+    color: var(--ion-color-miprimary);/** VARIABLE CREADA **/
+  }
+  
+  ion-slide > h1, h2 {
+    margin: 0 0 0 0;
+    color: var(--ion-color-tertiary-contrast);/** VARIABLE  **/
+    text-align: center;
+  }
+  
+  ion-slide > p {
+    border-width: 2px;
+    border-color: var(--ion-color-warning-contrast);/** VARIABLE  **/
+    border-style: solid;
+    font-style: italic;
+    font-size: 22px;
+    padding: 10px 10px 10px 10px;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  ion-slide > img {
+    max-height: 60%;
+    max-width: 60%;
+    margin: 20px 0;
+  }
+  
+  ion-slide > ion-icon[name="close"] {
+    float: right;
+    color: var(--ion-color-miprimary);/** VARIABLE CREADA **/
+    font-size: 20px;
+  }
